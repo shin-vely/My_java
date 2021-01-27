@@ -1,6 +1,19 @@
-# 안녕
+# 공부하자
+
+
+
+
+|| |
+| :---: | :--- |
+| 마크다운| [마트다운](https://github.com/shin-vely/My_java/blob/master/doc/markdown.md) |
+| 자바| [자바](https://github.com/shin-vely/My_java/blob/master/doc/java.md)|
+| 은영이는| 예뻐서 |
+
+
+
 
 * 오늘자 자바 공부
+
 
 
 
