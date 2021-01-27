@@ -98,7 +98,19 @@ __볼드로 진하게 만들다가__
 이미지 넣기 이미지는 어케넣은거에용?
 표는 왜틀린거지?
 
-![얌](http://image.dongascience.com/Photo/2020/03/5bddba7b6574b95d37b6079c199d7101.jpg)
+![그림1](http://image.dongascience.com/Photo/2020/03/5bddba7b6574b95d37b6079c199d7101.jpg)
+
+* https://images.mypetlife.co.kr/content/uploads/2020/05/27132734/suganth-7pzWbaRKC0A-unsplash-1536x1024.jpg
+
+이 주소 넣어서 만들 뭐가뜬다는건지 모르겠어
+뜨는거 무시하고 이미지 넣는거해봐용 안뜨는거! 라고 생각하고!
+
+![이게뭔지암거나쓰기](https://images.mypetlife.co.kr/content/uploads/2020/05/27132734/suganth-7pzWbaRKC0A-unsplash-1536x1024.jpg)
+
+`![이게뭔지암거나쓰기](주소넣기) <-- 여기다 써봐용`
+
+
+이거 안뜰수도 있어용! 따로 설정 켜줘야하나봐요
 
 표를 만들어볼까
 
