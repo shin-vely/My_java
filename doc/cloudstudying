@@ -20,11 +20,9 @@ public class Park {
   int gram = n * 180;             // 1인분 -> 180g
   double kcal = gram * 5.179;     // 1g -> 5.179kcal
   return kcal;
-    
+}    
 
 ```
-
-
 
 
 # 38강 조건문 배우기
