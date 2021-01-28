@@ -14,7 +14,7 @@ public class Park {
   //결과 출력
   System.out.printf("삼겹살 %d인분 : %.2f kcal", num, result
 }
-
+0
 //삼겹살 n 인분의 총 칼로리 반환
  public static double calculate(int n) {
   int gram = n * 180;             // 1인분 -> 180g
@@ -27,5 +27,31 @@ public class Park {
 
 # 38강 조건문 배우기
 ## if, if-else, else-if
+
+---
+#### if문 문제 - 하거나 말거나
+
+```java
+
+public class Beer {
+ public static void main(String[] args) {
+  order(18); // 18세가 캔맥주를 사려 함
+  order(19); // 19세가 캔맥주를 사려 함
+  order(20); // 20세가 캔맥주를 사려 함
+  
+  }
+  
+  public static void order(int age) {
+   if (age >= 19) {
+    System.out.printf("%d세, 성인인증 완료 => 캔맥주가 나왔습니다.\n", age);
+    }
+  }
+}
+
+```
+
+
+
+
 ## 비교연산자, 논리연산자
 
