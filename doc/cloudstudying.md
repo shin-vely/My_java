@@ -23,7 +23,9 @@ public class Park {
 }    
 
 ```
-
+```
+output 삼겹살 3인분: 2796.66 kcal
+```
 
 # 38강 조건문 배우기
 ## if, if-else, else-if
