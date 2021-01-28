@@ -51,8 +51,24 @@ public class Beer {
 }
 
 ```
+```
+19세, 성인인증 완료 => 캔맥주가 나왔습니다.
+20세, 성인인증 완료 => 캔맥주가 나왔습니다.
+```
 
+---
+#### if-else문 문제 - 둘 중 하나!
 
+```java
+public class Tobacco {
+ public static void main(String[] args) {
+  buy(15); // 15세, 담배 구매 시도
+  buy(19); // 19세, 담배 구매 시도
+  buy(22); // 22세, 담배 구매 시도
+  }
+ public  static void buy(int age) {
+ //변수 생성
+ String result
 
 
 ## 비교연산자, 논리연산자
