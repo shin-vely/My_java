@@ -3,8 +3,8 @@
 
 목차
 * 38강 조건문 배우기
-  * if, if-else, else-if
-  * 비교연산자, 논리연산자
+  * [if, if-else, else-if](https://github.com/shin-vely/My_java/blob/master/doc/cloudstudying.md#if-if-else-else-if)
+  * [비교연산자, 논리연산자](https://github.com/shin-vely/My_java/blob/master/doc/cloudstudying.md#%EB%B9%84%EA%B5%90%EC%97%B0%EC%82%B0%EC%9E%90-%EB%85%BC%EB%A6%AC%EC%97%B0%EC%82%B0%EC%9E%90)
 
 
 ## x강
