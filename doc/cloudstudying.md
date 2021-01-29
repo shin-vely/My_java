@@ -1,6 +1,16 @@
 # 강의 리뷰
+
+
+목차
+* 38강 조건문 배우기
+  * if, if-else, else-if
+  * 비교연산자, 논리연산자
+
+
+## x강
 ---
-문제 : 삼겹살 3인분 칼로리 계산하기
+
+#### 문제 : 삼겹살 3인분 칼로리 계산하기
 
 ```java
 public class Park {
@@ -21,16 +31,16 @@ public class Park {
   double kcal = gram * 5.179;     // 1g -> 5.179kcal
   return kcal;
 }    
-
 ```
+
 ```
 삼겹살 3인분: 2796.66 kcal
 ```
 
-# 38강 조건문 배우기
-## if, if-else, else-if
+## 38강 조건문 배우기
 
----
+### if, if-else, else-if
+
 #### if문 문제 - 하거나 말거나
 
 ```java
@@ -56,8 +66,7 @@ public class Beer {
 20세, 성인인증 완료 => 캔맥주가 나왔습니다.
 ```
 
----
-#### 1월 29일 if-else문 문제 - 둘 중 하나!
+#### if-else문 문제 - 둘 중 하나!
 
 ```java
 public class Tobacco {
@@ -122,7 +131,7 @@ public class BusCard {
 10살 => 어린이입니다.
 4살 => 유아입니다.
 ```
-## 비교연산자, 논리연산자
+### 비교연산자, 논리연산자
 
 
 
