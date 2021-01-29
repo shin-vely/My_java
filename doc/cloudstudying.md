@@ -57,7 +57,7 @@ public class Beer {
 ```
 
 ---
-#### if-else문 문제 - 둘 중 하나!
+#### 1월 29일 if-else문 문제 - 둘 중 하나!
 
 ```java
 public class Tobacco {
@@ -68,8 +68,23 @@ public class Tobacco {
   }
  public  static void buy(int age) {
  //변수 생성
- String result
-
+ String result="담배판매";
+  //조건에 따른 결과 생성
+  if(age>=19){
+   result = "O";
+  } else {
+   result = "X"; 
+  }
+  //결과 출력
+  System.out.printf(%d세 => 담배판매(%s)\n", age, result);
+   }
+  }
+  ```
+```
+15세 => 담배판매(X)
+19세 => 담배판매(O)
+22세 => 담배판매(O)
+```
 
 ## 비교연산자, 논리연산자
 
