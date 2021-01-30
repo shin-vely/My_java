@@ -168,5 +168,48 @@ kim => 반액 장학금!
 choi => 다음 기회에~
 ```
 
+#### 중첩된 조건문
 
+```java
 
+public class AverageHeight {
+ public static void main (String[] args) {
+ 
+   test(176.3, true);  // 176.3cm, 남 => 평균키 이상
+   test(162.7, false); // 162.7cm, 여 => 평균키 이상
+   test(171.8, true);  // 171.8cm, 남 => 평균키 이하
+   test(158.4, false); // 158.4cm, 여 => 평균키 이하
+ }
+ 
+  public static void test(double height, boolean isMale) {
+  //변수 생성
+  String gender = "";
+  String result = "";
+  
+  //조건처리
+  if(isMale) {
+  gender = "남";
+   if(height > 171.8) {
+     result + "이상";
+   } else {
+     result = "이하";
+   }
+ } else {
+   gender = "여";
+   if (height > 158.4) {
+    result = "이상";
+  } else {
+    result = "이하";
+  }
+ }
+ //결과출력
+ System.out.printf("%.fcm, %s => 평균키 %s\n, height, gender, result);
+ }
+}
+```
+```
+176.3cm, 남 => 평균키 이상
+162.7cm, 여 => 평균키 이상
+171.8cm, 남 => 평균키 이하
+158.4cm, 여 => 평균키 이하
+```
