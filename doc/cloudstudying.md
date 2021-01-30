@@ -133,5 +133,40 @@ public class BusCard {
 ```
 ### 비교연산자, 논리연산자
 
+#### 비교연산자 문제
+```java
+public class Scholarship {
+ public static void main (String[] args) {
+  //메소드 호출
+  printTest("park", 100, 92); 
+  //park => 전액 장학금!
+  printTest("kim", 82, 96);
+  //kim => 반액장학금!
+  printTest("choi", 82, 98);
+  //choi => 다음 기회에~
+}
+  public static void printTest(String name, int math, int eng) {
+   //변수생성
+   String result = "";
+   //조건에 따른 값 변경
+   if((math >= 90) && (eng >= 90)) //&&=>and {
+     result = "전액 장학금!";
+   } else if ((math >= 90) || (eng >= 90)) //||=>or {
+     result = "반액 장학금!";
+   } else {
+     result = "다음 기회에~";
+   }
+   
+   //결과 출력
+   System.out.printf("%s => %s\n", name, result);
+   }
+}
+```
+```
+Park => 전액 장학금!
+kim => 반액 장학금!
+choi => 다음 기회에~
+```
+
 
 
