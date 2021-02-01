@@ -217,3 +217,28 @@ public class AverageHeight {
 #### 복습해보기
  >저 클라우드스터딩 강의는 너모너모 어려웡 그래서 절대자바 책 있는 실전예제를 해볼거얌
  엉엉 JAVA 왜케어렵닝
+ ```JAVA
+ public class PrintInt { 
+  public static void main (String[] args) {
+   System.out.println(1);
+   System.out.println(12);
+   System.out.println(123);
+ }
+}
+
+ public class PrintInt { 
+  public static void main (String[] args) {
+   System.out.println("C");
+   System.out.println("C++");
+   System.out.println("JAVA");
+ }
+}
+
+ public class PrintTest3 { 
+  public static void main (String[] args) {
+   System.out.println("C");
+   System.out.println("C++");
+   System.out.println("JAVA");
+ }
+}
+
